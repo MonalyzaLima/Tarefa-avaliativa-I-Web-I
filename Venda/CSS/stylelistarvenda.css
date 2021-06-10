@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2? family = Poppins: wght @ 100; 200; 300; 400; 500; 500; 600; 700; 800; 900 & display = swap');
+
+table, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    font-family: "poppins", sans-serif;
+}
+
+th, td{
+    padding: 20px 10px;
+}
+
+th{
+    font-weight: 600;
+    background-color: #351574;
+    color: white ;
+}
+
+table tr:nth-child(odd){
+    background-color: #ddd; 
+}
+        
+table tr:nth-child(even){
+    background-color: white;
+}
+
+body{
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background: linear-gradient(to left, #4776E6, #7930ee );
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3 ease;
+}
